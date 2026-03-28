@@ -1,0 +1,121 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies
+node_modules/
+jspm_packages/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+coverage/
+*.cover
+*.coverage
+.nyc_output
+.cache
+pytest_cache/
+.pytest_cache/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# API Keys and Secrets
+**/*.key
+**/*.pem
+secrets/
+.secrets/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.temp/
+tmp/
+
+# Generated files
+*.generated.*
+generated/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+.dockerignore
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Streamlit
+.streamlit/
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+$RECYCLE.BIN/
+
+# AI specific
+embeddings/
+vector_store/
+*.index
+*.faiss
+
+# Large files
+*.mp4
+*.zip
+*.tar.gz
+*.rar
+
+project-meta.json

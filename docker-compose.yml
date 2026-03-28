@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  # Frontend React App
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    command: npm start
+
+  # Backend Node.js API
+  backend-nodejs:
+    build:
+      context: ./backend/nodejs
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=development
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PORT=5000
+    volumes:
+      - ./backend/nodejs:/app
+      - /app/node_modules
+    command: npm run dev
+
+  # Backend Python FastAPI
+  backend-python:
+    build:
+      context: ./backend/python
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./backend/python:/app
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Data Analysis Dashboard (Streamlit)
+  data-dashboard:
+    build:
+      context: ./data
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./data:/app
+    command: streamlit run dashboard/app.py
+
+networks:
+  default:
+    name: cowork-ai-network

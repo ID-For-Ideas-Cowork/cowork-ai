@@ -1,0 +1,21 @@
+fecha,producto,categoria,ventas,unidades,region
+2024-01-01,Laptop Pro,Electrónica,1299.99,5,Norte
+2024-01-01,Mouse Inalámbrico,Accesorios,29.99,15,Sur
+2024-01-01,Teclado Mecánico,Accesorios,89.99,8,Centro
+2024-01-02,Monitor 27",Electrónica,399.99,3,Norte
+2024-01-02,Webcam HD,Accesorios,79.99,12,Este
+2024-01-03,Laptop Pro,Electrónica,1299.99,7,Sur
+2024-01-03,Auriculares Bluetooth,Accesorios,149.99,20,Oeste
+2024-01-04,SSD 1TB,Componentes,119.99,25,Norte
+2024-01-04,RAM 16GB,Componentes,89.99,18,Centro
+2024-01-05,Mouse Inalámbrico,Accesorios,29.99,30,Sur
+2024-01-05,Laptop Pro,Electrónica,1299.99,4,Este
+2024-01-06,Monitor 27",Electrónica,399.99,6,Oeste
+2024-01-06,Teclado Mecánico,Accesorios,89.99,10,Norte
+2024-01-07,Webcam HD,Accesorios,79.99,8,Sur
+2024-01-08,Auriculares Bluetooth,Accesorios,149.99,15,Centro
+2024-01-08,SSD 1TB,Componentes,119.99,22,Este
+2024-01-09,RAM 16GB,Componentes,89.99,16,Oeste
+2024-01-09,Laptop Pro,Electrónica,1299.99,9,Norte
+2024-01-10,Mouse Inalámbrico,Accesorios,29.99,25,Sur
+2024-01-10,Monitor 27",Electrónica,399.99,5,Centro
