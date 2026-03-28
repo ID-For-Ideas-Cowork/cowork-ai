@@ -114,59 +114,9 @@ git push origin feat/tu-nombre-fe-01-chatbot
 
 ---
 
-### 6️⃣ Crea un Pull Request (PR)
+### 6️⃣ Comparte en LinkedIn
 
-Cuando completes **todas las tareas de tu rol**:
-
-1. Ve a tu fork en GitHub: `github.com/TU-USUARIO/cowork-ai`
-2. Haz clic en **"Pull Request"**
-3. Selecciona:
-   - **Base repository**: `ID-For-Ideas-Cowork/cowork-ai`
-   - **Base**: `main`
-   - **Head repository**: `TU-USUARIO/cowork-ai`
-   - **Compare**: tu rama
-4. Título: `[Tu Rol] Nombre Completo - Roadmap Completo`
-5. Descripción:
-
-```markdown
-## 🎯 Resumen
-
-Completé las 6 tareas del rol Frontend Developer.
-
-## ✅ Tareas Completadas
-
-- [x] FE-01: Chatbot Simple con OpenAI
-- [x] FE-02: Selector de Modelos y Temperature
-- [x] FE-03: Generador de Imágenes con DALL-E
-- [x] FE-04: Traductor con IA
-- [x] FE-05: Prompt Templates Library
-- [x] FE-06: Análisis de Sentimientos
-
-## 📝 Lo que aprendí
-
-- Integrar OpenAI API en React
-- Prompt engineering para diferentes casos
-- Manejo de estados async y streaming
-- Parámetros de LLMs (temperature, model)
-
-## 🔗 Prompts destacados
-
-Los prompts más efectivos que desarrollé están documentados en:
-- `frontend/prompts/chat-prompts.md`
-- `frontend/prompts/image-prompts.md`
-
-## 💡 Mejoras o desafíos
-
-[Opcional: cuenta algún desafío interesante o mejora que implementaste]
-```
-
-6. Haz clic en **"Create Pull Request"**
-
----
-
-### 7️⃣ Comparte en LinkedIn
-
-Después de enviar tu PR:
+Después de completar tus tareas:
 
 ```
 🚀 Completé el CoWork AI de @ID For IDeas!
@@ -185,7 +135,7 @@ Proyecto Open Source enfocado en LLMs para [tu rol]
 
 ---
 
-## 📋 Checklist antes de hacer PR
+## 📋 Checklist de Completitud
 
 - [ ] Completé **todas** las tareas de mi rol (6/6)
 - [ ] Mi código funciona correctamente
@@ -348,8 +298,7 @@ Traduce el siguiente texto...
 3. **API Key** → Configura en `.env`
 4. **Tareas** → Completa las 6 de tu rol
 5. **Documenta** → Guarda tus prompts efectivos
-6. **PR** → Pull Request con todo completo
-7. **Comparte** → LinkedIn con #IDForIdeas
+6. **Comparte** → LinkedIn con #IDForIdeas
 
 ---
 
